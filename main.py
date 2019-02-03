@@ -7,7 +7,7 @@ def non_complex(string):
 
 def match(input, compare):
     m = True
-    if len(input) == len(compare):
+    if len(input) == len(compare): 
         for n, letter in enumerate(list(input)):
             if not letter == '?':
                 if not letter == compare[n]:
